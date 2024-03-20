@@ -7,12 +7,12 @@ An ESP32 and Blynk app-based system, that monitors garden conditions and notifie
  2. Soil Moisture Sensor
  3. DHT11/22 (Optional)
  4. LED (Optional)
- 5. Water Pump (Optional for current code)
+ 5. Water Pump (Optional if you have you can use)
 
 # Connection with ESP
  1. Connect soil moisture sensor with ESP32
  2. Connect LED with ESP32
-    -- for this specifice code configuration we assume it as a motor if you have an actual motor you can connect it with the ESP32 along with a LED
+    -- If you dont have water pump you can use led only and assume it as an motor as the functions of both the components will be same.
 3. Connect DHT11 or DHT22 if you have to monitor temperature and humidity of garden or our nearby plant ecosystem.
 
 # To run the project 
@@ -26,9 +26,9 @@ An ESP32 and Blynk app-based system, that monitors garden conditions and notifie
 7. Upload the code to ESP32
 
 # NOTE
-In this project we are using LED in place of actual water pump motor if you have actual pump you can use it in the place of LED the connection will be similar as LED. And you can control it using Blynk App.
+In this project we are not using DHT sensor or any enviornment monitoring sensor but you can connect and monitor the enviornment parameter through blynk app and can modify the thredhold vlaue in the code as per your plant.
 -- Futre Upgradation -- 
-We can use DHT sensor to monitor the ecosystem surrounding the plant.
+We can use DHT sensor to monitor the ecosystem around the plant.
 We can implement ML to automate the process and to predict weather enviornment for our garden or plant.
 
 
